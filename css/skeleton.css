@@ -416,3 +416,29 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* Header */
+header {
+  background: url("https://unsplash.it/1080/720/?image=377") no-repeat fixed center / cover;
+  text-align: center;
+}
+
+nav ul, .contact ul {
+  list-style: none;
+  font-size: 0;
+}
+
+nav li, .contact li {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+nav li {
+  width: 50%;
+}
+
+/* About */
+.about {
+  background: url("https://unsplash.it/1080/720/?image=349") no-repeat fixed center / cover;
+  color: black;
+}
