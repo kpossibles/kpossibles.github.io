@@ -125,7 +125,10 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #716034;  /* #222 */
+  padding-top: 20px;
+  position: relative;
+  background: url(images/h_bg.gif) top repeat-x #c8efe7;}
 
 
 /* Typography
@@ -416,3 +419,29 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+#back-top {
+    width: 154px;
+    height: 52px;
+    position: fixed;
+    bottom: 30px;
+    margin-left: 120px
+}
+
+#back-top a {
+    width: 154px;
+    height: 0;
+    padding-top: 52px;
+    overflow: hidden;
+    display: block;
+    background: url(images/btn_top.png) no-repeat;
+}
+
+#copyright {
+  text-align: center;
+    background: #938b85;
+    color: #fff;
+    font-size: .7em;
+    padding: 3px 0;
+    margin: 20px 0 0;
+}

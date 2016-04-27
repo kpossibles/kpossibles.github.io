@@ -16,6 +16,8 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -26,24 +28,41 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="hidenavi.js"></script>
+
+
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <div id="nav">
+	<ul>
+		<li><a href="#work">Work</a></li>
+		<li><a href="#ecommerce">E-Commerce</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+  </div>
+  <div id="nav_hover">
+	ナビゲーションメニューが隠れた後に表示させたい要素
+  </div>
+
+
+  <div class="container" id="g_header">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
+      <div class="two-thirds columns" style="margin-top: 15%">
+      	<img src="images/web-profilepic.jpg" width="200px" alt="" style="float: right; border-radius: 50%;"/>
         <h1>Kim Pham</h1>
         <h4>Programmer, Social Media Specialist</h4>
-        <p>I am a computer programmer with an interest in web development and computer engineering. My main work online comes from campaigns and social media promotion for <a href="http://lolitacollective.com">Lolita Collective</a>. Hopefully, we can get to know each other!
+        <p>I am a computer science student with an interest in web development and computer engineering. My main work online comes from campaigns and social media promotion for <a href="http://lolitacollective.com">Lolita Collective</a>. Hopefully, we can get to know each other!
         </p>
       </div>
     </div>
     
     <div class="row">
       <div class="twelve columns">
-        <h2>Work</h2>
+      	<h2 id="work">Work</h2>
         <h4>Product Promotion</h4>
         <p>Created graphics to promote new items from represented brands from Lolita Collective. 
         </p>
@@ -56,15 +75,43 @@
 
     <div class="row">
       <div class="twelve columns">
+      <br /><br />
         <h4>Event Promotion</h4>
         <p>Created maps from convention-provided documents into a graphic to highlight the location of Lolita Collective's booths.
-        </p>
+        </p>&nbsp;
         <img src="images/animematsuri-map.jpg" width="400px" alt="" />
-        <img src="images/Tekko-map-2016.png" width="400px" alt="" />
+        <img src="images/Tekko-map-2016.png" height="286px" alt="" />
         <img src="images/RC-Marketplace-Map-Final.png" width="800px" alt="" />
       </div>
     </div>
+
+    <div class="row">
+      <div class="twelve columns">
+      <br /><br />
+      	<h2 id="ecommerce">E-commerce</h2>
+        <h4>Storenvy</h4>
+        <p>Modified Storenvy stock theme for Lolita Collective. Webshop closed due to transition to Shopify. (Click through for full layout)</p>
+        <a href="images/lolitacollective-storenvy.png"><img src="images/lolitacollective-storenvy-preview.png" width="800px" alt="" /></a>
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 5%;">
+      <div class="one-third column">
+      <h4 id="contact">Contact</h4>
+      </div>
+      <div class="one-third column">
+      	<h4><a href="http://linkedin.com/kpossibles"><i class="fa fa-linkedin"></i></a>
+      	&nbsp;&nbsp;&nbsp;
+      	<a href="http://github.com/kpossibles"><i class="fa fa-github" aria-hidden="true"></i></a></h4>
+        
+      </div>
+    </div>
+
+
   </div>
+  <div id="back-top" style="display: block;"> <a href="#g_header">PageTop</a></div>
+  <p id="copyright">Copyright<span>&copy;</span> <script type="text/javascript">myDate= new Date();myYear=myDate.getFullYear();document.write(myYear);</script> Kim Pham All rights reseved. </p>
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
