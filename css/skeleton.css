@@ -125,10 +125,10 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #716034;  /* #222 */
+  color: #222;  /* #222 */
   padding-top: 20px;
   position: relative;
-  background: url(images/h_bg.gif) top repeat-x #c8efe7;}
+  background: url(images/asanoha.png) #fff;}
 
 
 /* Typography
@@ -420,7 +420,7 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
-#back-top {
+/*#back-top {
     width: 154px;
     height: 52px;
     position: fixed;
@@ -435,7 +435,7 @@ there.
     overflow: hidden;
     display: block;
     background: url(images/btn_top.png) no-repeat;
-}
+}*/
 
 #copyright {
   text-align: center;
@@ -444,4 +444,94 @@ there.
     font-size: .7em;
     padding: 3px 0;
     margin: 20px 0 0;
+}
+/* Keyframe animation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.first {
+  -webkit-animation: bannermove 30s linear infinite;
+     -moz-animation: bannermove 30s linear infinite;
+      -ms-animation: bannermove 30s linear infinite;
+       -o-animation: bannermove 30s linear infinite;
+          animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3220px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3220px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3220px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3220px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3220px;
+ }
+
+}
+.photobanner {
+ height: 400px;
+ width: 4850px;
+/* margin-bottom: 80px;*/
+}
+ 
+.photobanner img {
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+#container{
+  width: 1000px;
+  overflow: hidden;
+  margin: 50px auto;
 }
