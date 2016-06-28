@@ -30,24 +30,24 @@
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script type="text/javascript" src="hidenavi.js"></script>
-
+	<script type='text/javascript'>
+	$(document).ready(function(){ 
+	    $(window).scroll(function(){ 
+	        if ($(this).scrollTop() > 100) { 
+	            $('#scroll').fadeIn(); 
+	        } else { 
+	            $('#scroll').fadeOut(); 
+	        } 
+	    }); 
+	    $('#scroll').click(function(){ 
+	        $("html, body").animate({ scrollTop: 0 }, 600); 
+	        return false; 
+	    }); 
+	});
+	</script>
 
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!--   <div id="nav">
-	<ul style="list-style: none;">
-		<li><a href="#work">Work</a></li>
-		<li><a href="#ecommerce">E-Commerce</a></li>
-		<li><a href="#contact">Contact</a></li>
-	</ul>
-  </div>
-  <div id="nav_hover">
-	Open menu
-  </div> -->
-
 
   <div class="container" id="top">
     <div class="row">
@@ -139,6 +139,8 @@
       </div></div>
 
   </div>
+<!-- Back to top -->  
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 
   <p id="copyright">Copyright <span>&copy;</span> <script type="text/javascript">myDate= new Date();myYear=myDate.getFullYear();document.write(myYear);</script> Kim Pham - All rights reserved. </p>
 
