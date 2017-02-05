@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About - Kim Pham
+title: About
 excerpt: "About Kim Pham"
 modified: 2017-02-05T15:27:50-06:00
 ---
@@ -33,21 +33,25 @@ modified: 2017-02-05T15:27:50-06:00
   <p>Created graphics to promote new items from represented brands from Lolita Collective in 2015. 
   </p>
   <figure class="half">
-    <img src="{{site.url}}/images/2015-02-20.jpg" />
-    <img src="{{site.url}}/images/2015-02-27.jpg" />
-    <img src="{{site.url}}/images/lc-blackfriday-grimoire2015.jpg" />
-    <img src="{{site.url}}/images/lc-smallbusinesssat2015.jpg" />
+    <a href="{{site.url}}/images/2015-02-20.jpg"><img src="{{site.url}}/images/2015-02-20.jpg" /></a>
+    <a href="{{site.url}}/images/2015-02-27.jpg"><img src="{{site.url}}/images/2015-02-27.jpg" /></a>
+    <a href="{{site.url}}/images/lc-blackfriday-grimoire2015.jpg"><img src="{{site.url}}/images/lc-blackfriday-grimoire2015.jpg" /></a>
+    <a href="{{site.url}}/images/lc-smallbusinesssat2015.jpg"><img src="{{site.url}}/images/lc-smallbusinesssat2015.jpg" /></a>
   </figure>
-  <img src="{{site.url}}/images/lockshop-lolitacollective.jpg" />
+  <figure>
+    <a href="{{site.url}}/images/lockshop-lolitacollective.jpg"><img src="{{site.url}}/images/lockshop-lolitacollective.jpg" /></a>
+  </figure>
 
   <h4>Event Promotion</h4>
   <p>Created maps from convention-provided documents into a graphic to highlight the location of Lolita Collective's booths in 2016.
   </p>
   <figure class="half">
-    <img src="{{site.url}}/images/animematsuri-map.jpg" />
-    <img src="{{site.url}}/images/Tekko-map-2016.png" />
+    <a href="{{site.url}}/images/animematsuri-map.jpg"><img src="{{site.url}}/images/animematsuri-map.jpg" /></a>
+    <a href="{{site.url}}/images/Tekko-map-2016.png"><img src="{{site.url}}/images/Tekko-map-2016.png" /></a>
   </figure>
-  <img src="{{site.url}}/images/RC-Marketplace-Map-Final.png" />
+  <figure>
+    <a href="{{site.url}}/images/RC-Marketplace-Map-Final.png"><img src="{{site.url}}/images/RC-Marketplace-Map-Final.png" /></a>
+  </figure>
 
   <h2 id="ecommerce">E-commerce</h2>
   <h4>Storenvy</h4>
@@ -59,10 +63,10 @@ modified: 2017-02-05T15:27:50-06:00
   
   <!-- photos -->
   <figure class="half">
-    <img class="first" src="{{site.url}}/images/banner1.jpg" />
-    <img src="{{site.url}}/images/banner2.jpg" />
-    <img src="{{site.url}}/images/banner3.jpg" />
-    <img src="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg" />
+    <a href="{{site.url}}/images/banner1.jpg"><img src="{{site.url}}/images/banner1.jpg" /></a>
+    <a href="{{site.url}}/images/banner2.jpg"><img src="{{site.url}}/images/banner2.jpg" /></a>
+    <a href="{{site.url}}/images/banner3.jpg"><img src="{{site.url}}/images/banner3.jpg" /></a>
+    <a href="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg"><img src="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg" /></a>
   </figure>
 </div>
 ##Other Blog
