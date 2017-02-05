@@ -69,6 +69,7 @@ modified: 2017-02-05T15:27:50-06:00
     <a href="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg"><img src="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg" /></a>
   </figure>
 </div>
-##Other Blog
-####[Tsundoku Life](http://tsundokulife.com)
+
+<h2>Other Blog</h2>
+[Tsundoku Life](http://tsundokulife.com)
 Manga Reviews and general blogging about hobbies
