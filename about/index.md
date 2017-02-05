@@ -39,8 +39,9 @@ image:
     <div class="row">
       <div class="twelve columns">
       	<h2 id="work">Work</h2>
-        <h4><a href="http://kpossibles.github.io/frillycatalog.html">Frilly Catalog</a></h4>
-        <p>Attempt at making <a href="http://lolibrary.org">Lolibrary</a> easy to browse using code from an isotope js tutorial from <a href="http://septembre.co.vu/">http://septembre.co.vu/</a> as a basis with jquery, style using former Hellolace css. <b>NEXT STEPS:</b> trying to parse data using Python and make lazy load work properly</p>
+        <h4><a href="http://frillycatalog.tsundokulife.com/">Frilly Catalog</a></h4>
+        <p>Attempt at making <a href="http://lolibrary.org">Lolibrary</a> easy to browse using scraped web data onto my own mySQL database. <br>
+        <b>NEXT STEPS:</b> trying to parse data using Python and make lazy load work properly</p>
 
         <h4>Product Promotion</h4>
         <p>Created graphics to promote new items from represented brands from Lolita Collective. 
@@ -94,9 +95,8 @@ image:
 	    <br />(*NOTE: can view some of these banners on <a href="http://store.lolitacollective.com">store.lolitacollective.com</a>)
 	    </div>
 	 	
-	</div></div>
-        
-      </div></div>
+</div></div>
+
 <!-- Back to top -->  
 <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
   </div>
