@@ -72,4 +72,4 @@ modified: 2017-02-05T15:27:50-06:00
 
 <h2>Other Blog</h2>
 [Tsundoku Life](http://tsundokulife.com)
-Manga Reviews and general blogging about hobbies
+> Manga Reviews and general blogging about hobbies
