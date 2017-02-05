@@ -1,3 +1,3 @@
-# kpossibles.github.io
+# Kim's Blog
 
-Kim's personal website
+Blogging about my coding adventures, using So Simple theme
