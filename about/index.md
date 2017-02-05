@@ -37,8 +37,8 @@ modified: 2017-02-05T15:27:50-06:00
     <img src="{{site.url}}/images/2015-02-27.jpg" />
     <img src="{{site.url}}/images/lc-blackfriday-grimoire2015.jpg" />
     <img src="{{site.url}}/images/lc-smallbusinesssat2015.jpg" />
-    <img src="{{site.url}}/images/lockshop-lolitacollective.jpg" />
   </figure>
+  <img src="{{site.url}}/images/lockshop-lolitacollective.jpg" />
 
   <br /><br />
   <h4>Event Promotion</h4>
@@ -54,7 +54,7 @@ modified: 2017-02-05T15:27:50-06:00
 	<h2 id="ecommerce">E-commerce</h2>
   <h4>Storenvy</h4>
   <p>Modified Storenvy stock theme for Lolita Collective in 2015. Webshop closed due to transition to Shopify. (Click through for full layout)</p>
-  <a href="lolitacollective-storenvy.png"><img src="{{site.url}}/images/lolitacollective-storenvy-preview.png" /></a>
+  <a href="{{site.url}}/images/lolitacollective-storenvy.png"><img src="{{site.url}}/images/lolitacollective-storenvy-preview.png" /></a>
 
 
 	<br /><br />
@@ -63,15 +63,12 @@ modified: 2017-02-05T15:27:50-06:00
   
   <!-- photos -->
   <figure class="half">
-    <img class="first" src="banner1.jpg" />
+    <img src="{{site.url}}/images/banner1.jpg" />
     <img src="{{site.url}}/images/banner2.jpg" />
-  </figure>
-  <figure class="half">
     <img src="{{site.url}}/images/banner3.jpg" />
     <img src="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg" />
   </figure>
-  <figure class="half">
-    <img src="{{site.url}}/images/banner1.jpg" />
-    <img src="{{site.url}}/images/banner2.jpg" />
-  </figure>
 </div>
+####Other Links
+[Tsundoku Life](http://tsundokulife.com/)
+> Manga Review Blog
