@@ -37,10 +37,9 @@ modified: 2017-02-05T15:27:50-06:00
     <img src="{{site.url}}/images/2015-02-27.jpg" />
     <img src="{{site.url}}/images/lc-blackfriday-grimoire2015.jpg" />
     <img src="{{site.url}}/images/lc-smallbusinesssat2015.jpg" />
-    <img src="{{site.url}}/images/lockshop-lolitacollective.jpg" />
   </figure>
+  <img src="{{site.url}}/images/lockshop-lolitacollective.jpg" />
 
-  <br /><br />
   <h4>Event Promotion</h4>
   <p>Created maps from convention-provided documents into a graphic to highlight the location of Lolita Collective's booths in 2016.
   </p>
@@ -50,28 +49,22 @@ modified: 2017-02-05T15:27:50-06:00
   </figure>
   <img src="{{site.url}}/images/RC-Marketplace-Map-Final.png" />
 
-  <br /><br />
   <h2 id="ecommerce">E-commerce</h2>
   <h4>Storenvy</h4>
   <p>Modified Storenvy stock theme for Lolita Collective in 2015. Webshop closed due to transition to Shopify. (Click through for full layout)</p>
-  <a href="lolitacollective-storenvy.png"><img src="{{site.url}}/images/lolitacollective-storenvy-preview.png" /></a>
+  <a href="{{site.url}}/images/lolitacollective-storenvy.png"><img src="{{site.url}}/images/lolitacollective-storenvy-preview.png" /></a>
 
-
-  <br /><br />
   <h4>Web banners</h4>
   <p>Created web banners promoting special reservations from affiliated brands for <a href="http://store.lolitacollective.com">Lolita Collective Shopify webshop</a> in 2016.</p>
   
   <!-- photos -->
   <figure class="half">
-    <img class="first" src="banner1.jpg" />
+    <img class="first" src="{{site.url}}/images/banner1.jpg" />
     <img src="{{site.url}}/images/banner2.jpg" />
-  </figure>
-  <figure class="half">
     <img src="{{site.url}}/images/banner3.jpg" />
     <img src="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg" />
   </figure>
-  <figure class="half">
-    <img src="{{site.url}}/images/banner1.jpg" />
-    <img src="{{site.url}}/images/banner2.jpg" />
-  </figure>
 </div>
+##Other Blog
+####[Tsundoku Life](http://tsundokulife.com)
+Manga Reviews and general blogging about hobbies
