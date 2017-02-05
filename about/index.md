@@ -2,17 +2,17 @@
 layout: page
 title: About - Kim Pham
 excerpt: "Kim's portfolio"
-modified: 2014-08-08T19:44:38.564948-04:00
+modified: 2017-02-05T14:57:15-06:00
 image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: bgd01.jpg
+  credit: 
+  creditlink: 
 ---
 
 <div class="container" id="top">
     <div class="row">
       <div class="two-thirds columns" style="margin-top: 15%">
-      	<img src="{{site.url}}/images/web-profilepic.jpg" width="200px" alt="" style="float: right; border-radius: 50%;"/>
+      	<img src="{{site.url}}/images/web-profilepic.jpg" width="200px" style="float: right; border-radius: 50%;"/>
         <h1>Kim Pham</h1>
         <h4>Programmer, Social Media Specialist</h4>
         <p>I am a computer science student from Milwaukee, WI with an interest in web development and software engineering. My main work online comes from campaigns and social media promotion for <a href="http://lolitacollective.com">Lolita Collective</a>. Hopefully, we can get to know each other!
@@ -46,11 +46,11 @@ image:
         <h4>Product Promotion</h4>
         <p>Created graphics to promote new items from represented brands from Lolita Collective. 
         </p>
-        <img src="{{site.url}}/images/2015-02-20.jpg" width="400px" alt="" />
-        <img src="{{site.url}}/images/2015-02-27.jpg" width="400px" alt="" />
-        <img src="{{site.url}}/images/lc-blackfriday-grimoire2015.jpg" width="400px" alt="" />
-        <img src="{{site.url}}/images/lc-smallbusinesssat2015.jpg" width="400px" alt="" />
-        <img src="{{site.url}}/images/lockshop-lolitacollective.jpg" width="800px" alt="" />
+        <img src="{{site.url}}/images/2015-02-20.jpg" />
+        <img src="{{site.url}}/images/2015-02-27.jpg" />
+        <img src="{{site.url}}/images/lc-blackfriday-grimoire2015.jpg" />
+        <img src="{{site.url}}/images/lc-smallbusinesssat2015.jpg" />
+        <img src="{{site.url}}/images/lockshop-lolitacollective.jpg" />
       </div>
     </div>
 
@@ -60,9 +60,9 @@ image:
         <h4>Event Promotion</h4>
         <p>Created maps from convention-provided documents into a graphic to highlight the location of Lolita Collective's booths.
         </p>&nbsp;
-        <img src="{{site.url}}/images/animematsuri-map.jpg" width="400px" alt="" />
-        <img src="{{site.url}}/images/Tekko-map-2016.png" height="286px" alt="" />
-        <img src="{{site.url}}/images/RC-Marketplace-Map-Final.png" width="800px" alt="" />
+        <img src="{{site.url}}/images/animematsuri-map.jpg" />
+        <img src="{{site.url}}/images/Tekko-map-2016.png" />
+        <img src="{{site.url}}/images/RC-Marketplace-Map-Final.png" />
       </div>
     </div>
 
@@ -72,7 +72,7 @@ image:
       	<h2 id="ecommerce">E-commerce</h2>
         <h4>Storenvy</h4>
         <p>Modified Storenvy stock theme for Lolita Collective. Webshop closed due to transition to Shopify. (Click through for full layout)</p>
-        <a href="lolitacollective-storenvy.png"><img src="{{site.url}}/images/lolitacollective-storenvy-preview.png" width="800px" alt="" /></a>
+        <a href="lolitacollective-storenvy.png"><img src="{{site.url}}/images/lolitacollective-storenvy-preview.png" /></a>
     </div></div>
 
 
@@ -83,20 +83,16 @@ image:
         <p>Created web banners promoting special reservations from affiliated brands for Lolita Collective Shopify webshop.</p>
         
         <div class="photobanner">
-        <!-- Each image is 800px -->
-	        <img class="first" src="banner1.jpg" alt="" />
-	        <img src="{{site.url}}/images/banner2.jpg" alt="" />
-	        <img src="{{site.url}}/images/banner3.jpg" alt="" />
-	        <img src="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg" alt="" />
-	        <img src="{{site.url}}/images/banner1.jpg" alt="" />
-	        <img src="{{site.url}}/images/banner2.jpg" alt="" />
-	    </div>
+          <!-- Each image is 800px -->
+	        <img class="first" src="banner1.jpg" />
+	        <img src="{{site.url}}/images/banner2.jpg" />
+	        <img src="{{site.url}}/images/banner3.jpg" />
+	        <img src="{{site.url}}/images/mossbadger-allthemwitches-banner.jpg" />
+	        <img src="{{site.url}}/images/banner1.jpg" />
+	        <img src="{{site.url}}/images/banner2.jpg" />
+        </div>
 	    
 	    <br />(*NOTE: can view some of these banners on <a href="http://store.lolitacollective.com">store.lolitacollective.com</a>)
 	    </div>
 	 	
 </div></div>
-
-<!-- Back to top -->  
-<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
-  </div>
