@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Blog
+title: Kim's Bizarre Adventure
 locale: en_US
-description: Kim's blog
+description: Writing about what I coded recently
 logo: site-logo.png
 url: https://kpossibles.github.io
 
@@ -44,10 +44,10 @@ owner:
   facebook: 
   github: kpossibles
   stackexchange:
-  linkedin:
+  linkedin: kpossibles
   instagram: kpossibles
   flickr:
-  tumblr: kpossibles
+  tumblr: 
   pinterest:
   weibo:
   google:
