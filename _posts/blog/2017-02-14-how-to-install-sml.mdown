@@ -16,32 +16,32 @@ I am taking Programming Language Concepts at UWM this semester (CS 431), which c
 
 ### Have Homebrew installed
 
-<code>ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)</code>
+ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)
 
 ### Double-check that it's updated if already installed
 
-<code>$ brew update</code>
+`$ brew update`
 
 ### Install SML through Homebrew
 
-<code>$ brew install smlnj</code>
+`$ brew install smlnj`
 
 ### Update your `PATH`
 Open your bash profile
 
-<code>$ open -t ~/.bash_profile</code>
+`$ open -t ~/.bash_profile`
 
 Add an export `PATH-directive` to this file:
 
-<code>export PATH=/usr/local/Cellar/smlnj/110.74/libexec/bin:$PATH</code>
+`export PATH=/usr/local/Cellar/smlnj/110.74/libexec/bin:$PATH`
 
 Reload your profile
 
-<code>$ source ~/.bash_profile</code>
+`$ source ~/.bash_profile`
 
 # PROFIT?!!!
 Type sml into the Terminal to get started!
 
-<code>$ sml</code>
+`$ sml`
 
 ![hooray ya did it!!!](https://media.giphy.com/media/sY6DRXWTn9a2k/giphy.gif)
