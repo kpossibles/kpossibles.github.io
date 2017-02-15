@@ -12,7 +12,7 @@ date: 2017-02-05T13:41:55-06:00
 
 I am trying to record my progress with modifying stuff around on my github website. Yeah, so just editing this page right now.
 
-##How my idiot self took a week to figure it out
+## How my idiot self took a week to figure it out
 For the life of me, I had a rough time learning git (like I'm probably never going to do much besides pull & commit and making sure I don't mess up my local branches). To do a Jekyll test theme, on a project page like your_username.github.io/theme_name, you need to have a gh-pages branch (like select it in git and edit the main content of your website there). In my case, I had a simple static 1 page site before and only previously used blogspot, tumblr, and livejournal for blogging with easy tutorials for dummies like me...
 
 ## What I did/learned today
