@@ -6,7 +6,7 @@ categories: blog
 excerpt: "Installing SML through Homebrew is super easy!"
 tags: [learning]
 image:
-  feature:
+feature:
 date: 2017-02-14T22:48:22-06:00
 ---
 
@@ -16,45 +16,32 @@ I am taking Programming Language Concepts at UWM this semester (CS 431), which c
 
 ### Have Homebrew installed
 
-```
-ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)
-```
+<code>ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)</code>
 
 ### Double-check that it's updated if already installed
 
-```
-$ brew update
-```
+<code>$ brew update</code>
 
 ### Install SML through Homebrew
 
-```
-$ brew install smlnj
-```
+<code>$ brew install smlnj</code>
 
 ### Update your `PATH`
 Open your bash profile
 
-```
-$ open -t ~/.bash_profile
-```
+<code>$ open -t ~/.bash_profile</code>
 
 Add an export `PATH-directive` to this file:
 
-```
-export PATH=/usr/local/Cellar/smlnj/110.74/libexec/bin:$PATH
-```
+<code>export PATH=/usr/local/Cellar/smlnj/110.74/libexec/bin:$PATH</code>
 
 Reload your profile
 
-```
-$ source ~/.bash_profile
-```
+<code>$ source ~/.bash_profile</code>
 
 # PROFIT?!!!
 Type sml into the Terminal to get started!
 
-```
-$ sml
-```
+<code>$ sml</code>
+
 ![hooray ya did it!!!](https://media.giphy.com/media/sY6DRXWTn9a2k/giphy.gif)
