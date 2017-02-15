@@ -57,5 +57,4 @@ Type sml into the Terminal to get started!
 ```
 $ sml
 ```
-
-<img src="https://media.giphy.com/media/sY6DRXWTn9a2k/giphy.gif" alt="hooray ya did it!!!" />
+![hooray ya did it!!!](https://media.giphy.com/media/sY6DRXWTn9a2k/giphy.gif)
