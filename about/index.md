@@ -17,6 +17,7 @@ modified: 2017-02-05T15:27:50-06:00
   </p>
   <h2>Courses</h2>
   <ul>
+    <li>CS 361: Introduction to Software Engineering</li>
     <li>CS 458: Computer Architecture</li>
     <li>CS 351: Data Structures and Algorithms</li>
     <li>CS 337: Systems Programming</li>
@@ -25,9 +26,8 @@ modified: 2017-02-05T15:27:50-06:00
   </ul>
 
   <h2 id="work">Work</h2>
-  <h4><a href="http://frillycatalog.tsundokulife.com/">Frilly Catalog</a></h4>
-  <p>Attempt at making <a href="http://lolibrary.org">Lolibrary</a> easy to browse using scraped web data onto my own mySQL database in 2017. <br>
-  <b>NEXT STEPS:</b> trying to parse data using Python and make lazy load work properly</p>
+  <h4><a href="https://github.com/kpossibles/red-beard-and-crew/">ChronoTimer</a></h4>
+  <p>Semester project for an introductory software engineering class, programmed in Java. This is a stopwatch for various sports events such as track, swimming relays, marathons, and bobsledding. It works via console or GUI mouse clicks and arrow keys. We implemented touchpad timing options and tested it via various white box and black box tests.</p>
 
   <h4>Product Promotion</h4>
   <p>Created graphics to promote new items from represented brands from Lolita Collective in 2015. 
